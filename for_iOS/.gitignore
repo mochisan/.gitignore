@@ -1,0 +1,45 @@
+#                            _ __  _
+#                     ____ _(_) /_(_)___ _____  ____  ________
+#                    / __ `/ / __/ / __ `/ __ \/ __ \/ ___/ _ \
+#                  _/ /_/ / / /_/ / /_/ / / / / /_/ / /  /  __/
+#                 (_)__, /_/\__/_/\__, /_/ /_/\____/_/   \___/
+#                  /____/        /____/
+
+
+.DS_Store
+./profile
+out/
+
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcworkspace/
+
+# bundle
+vendor/
+.bundle
+fastlane/report.xml
+*.ipa
+*.app.dSYM.zip
+certs/*.mobileprovision
+
+Pods/
+
+Carthage/Checkouts
+
+Carthage/Build
+
+R.generated.swift
