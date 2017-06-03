@@ -1,0 +1,31 @@
+#                            _ __  _
+#                     ____ _(_) /_(_)___ _____  ____  ________
+#                    / __ `/ / __/ / __ `/ __ \/ __ \/ ___/ _ \
+#                  _/ /_/ / / /_/ / /_/ / / / / /_/ / /  /  __/
+#                 (_)__, /_/\__/_/\__, /_/ /_/\____/_/   \___/
+#                  /____/        /____/
+
+
+/.bundle
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/log/*
+/tmp/*
+/vendor/
+.idea/
+*.iml
+*.swp
+.DS_Store
+public/assets/
+/.vagrant/
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+config/application.yml
+
+db/structure.sql
+
+.env
+
+coverage/
